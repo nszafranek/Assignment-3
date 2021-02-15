@@ -1,7 +1,8 @@
 @media only screen and (max-width: 768px) {
-.ingredients .directions {
-  width: 100%;
-  float: none;
+  .ingredients .directions {
+    width: 100%;
+    float: none;
+  }
 }
 body {
   margin: 1em;
@@ -10,6 +11,9 @@ body {
   overflow-x: hidden;
   background-color: burlyWood;
   color: brown;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+
 }
 }
 
@@ -21,14 +25,19 @@ body {
   background-color: burlyWood;
   color: brown;
 }
-
 
 h1 {
   text-align: center;
+  background-color: brown;
+  color: burlyWood;
+  border-radius: 8px;
+  font-weight: 700;
 }
+
 h2 {
   text-align: center;
 }
+
 .tooltip {
   position: relative;
   display: inline-block;
@@ -41,7 +50,7 @@ h2 {
   background-color: brown;
   color: burlyWood;
   text-align: center;
-  padding: 10px 0;
+  padding: 10px;
   border-radius: 8px;
 
 
@@ -53,6 +62,7 @@ h2 {
   visibility: visible;
 }
 
+@media only screen and (min-width: 768px) {
 .ingredients {
   width: 30%;
   float: left;
@@ -61,6 +71,7 @@ h2 {
 }
 
 .starterIngredients {
+
 }
 
 .wetIngredients {
@@ -71,8 +82,11 @@ h2 {
 
 }
 
-.directions {
+@media only screen and (min-width: 768px) {
+  .directions {
   width: 60%;
-  padding-left: 10%;
+  float: right;
+  padding-left: 5%;
+  text-align: center;
   }
 }

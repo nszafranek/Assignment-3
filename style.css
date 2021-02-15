@@ -1,0 +1,78 @@
+@media only screen and (max-width: 768px) {
+.ingredients .directions {
+  width: 100%;
+  float: none;
+}
+body {
+  margin: 1em;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: burlyWood;
+  color: brown;
+}
+}
+
+body {
+  margin: 1em;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: burlyWood;
+  color: brown;
+}
+
+
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted brown;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 249px;
+  background-color: brown;
+  color: burlyWood;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 8px;
+
+
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:active .tooltiptext {
+  visibility: visible;
+}
+
+.ingredients {
+  width: 30%;
+  float: left;
+  padding-right: 5%;
+  }
+}
+
+.starterIngredients {
+}
+
+.wetIngredients {
+
+}
+
+.dryIngredients {
+
+}
+
+.directions {
+  width: 60%;
+  padding-left: 10%;
+  }
+}

@@ -44,6 +44,13 @@ h2 {
   border-bottom: 1px dotted brown;
 }
 
+#note:hover {
+  background: brown;
+  color: burlyWood;
+  cursor: pointer;
+}
+
+
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 249px;
@@ -54,6 +61,10 @@ h2 {
   border-radius: 8px;
   position: absolute;
   z-index: 1;
+}
+
+.tooltip > li > .listAmounts {
+  text-align: right!important;
 }
 
 .tooltip:active .tooltiptext {

@@ -79,7 +79,8 @@ h2 {
     width: auto;
     height: 100%;
     height: 90%;
-    padding-top: 1em
+    padding-top: 1em;
+    line-height: 1.75em;
   }
 
   .directions {

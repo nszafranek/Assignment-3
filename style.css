@@ -28,6 +28,7 @@ body {
 h1 {
   text-align: center;
   background-color: brown;
+  background-image: url("img/pizza.png");
   color: burlyWood;
   border-radius: 8px;
   font-weight: 700;

@@ -40,7 +40,6 @@ h2 {
 
 .tooltip {
   position: relative;
-  display: inline-block;
   border-bottom: 1px dotted brown;
 }
 
@@ -87,7 +86,7 @@ h2 {
     width: 65%;
     height: 100%;
     float: left;
-    padding: 5%;
+    padding: 2.5%;
     line-height: 2.25em;
     padding-top: 1em;
   }
